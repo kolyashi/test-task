@@ -74,10 +74,11 @@ button {
   align-items: center;
   margin-top: 110px; 
   margin-left: -95px;
+  gap: 30px;
 }
 
 .price_button > p {
-  margin-left: 420px;
+  margin-left: 520px;
   font-size: 32px;
 }
 
