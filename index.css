@@ -1,3 +1,4 @@
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -6,11 +7,15 @@
   padding-left: 30px; }
 
 .title {
-  margin-left: -9px; }
+  margin-left: -9px;
+  font-size: 18px;
+}
 
 .table {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 300px;
+}
 
 .li_flex {
   width: 100%;
@@ -23,10 +28,13 @@ li {
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding-left: 10px; }
+  padding-left: 10px; 
+  font-size: 20px;
+}
 
 .li_flex > .first > .btns {
-  margin-left: 287px; }
+  margin-left: 287px;
+ }
 
 .btns {
   display: flex;
@@ -64,18 +72,25 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 65px; }
+  margin-top: 110px; 
+  margin-left: -95px;
+}
 
 .price_button > p {
-  margin-left: 75px;
-  font-size: 32px; }
+  margin-left: 420px;
+  font-size: 32px;
+}
+
+.full_price {
+  size: 32px;
+}
 
 hr {
   border: solid #E6E6E6 1px;
   padding-left: 491px; }
 
 .price_souce {
-  margin-left: 72px;
+  margin-left: 80px;
   padding-right: -5px;
   color: #787878;
   position: absolute; }
@@ -83,3 +98,46 @@ hr {
 .first > .price_souce {
   margin-left: 72px;
   position: absolute; }
+
+.food {
+  width: 348px;
+  height: 298px;
+  border-radius: 25px;
+  margin-top: -80px;
+}
+
+.flex_calories {
+  display: flex;
+  color: #787878;
+  flex-direction: column;
+  position: absolute;
+  margin-left: -320px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.KB {
+  margin-left: -300px;
+  margin-top: 250px;
+}
+
+.li_calories {
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
+  margin-left: -40px;
+}
+.header {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -15px;
+  font-size: 24px;
+}
+
+.gramm {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -90px;
+  font-size: 18px;
+  color: #787878;
+}
